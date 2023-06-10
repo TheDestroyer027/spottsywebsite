@@ -50,7 +50,7 @@ p {
 }
 
 .feature-box {
-	display: flex;
+	float: left;
 	background-color: #e5e5e5;
 	border-radius: 8px;
 	margin: 8px;
