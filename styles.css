@@ -33,6 +33,7 @@ p {
 	color: #FFF;
 	background-color: #008FFF;
 	border-radius: 8px;
+	border: none;
 }
 
 .topic {
