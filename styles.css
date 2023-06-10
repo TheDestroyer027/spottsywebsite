@@ -50,7 +50,7 @@ p {
 }
 
 .feature-box {
-	float: left;
+	display: inline-block;
 	background-color: #e5e5e5;
 	border-radius: 8px;
 	margin: 8px;
