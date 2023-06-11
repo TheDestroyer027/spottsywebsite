@@ -1,9 +1,9 @@
-body {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Poppins', sans-serif;
 }
 
 p {
-	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-family: "Helvetica Neue";
 }
 
 .logo {
@@ -39,22 +39,42 @@ p {
 .topic {
 	text-align: center;
 	min-width: 0px;
-	max-width: 512px;
+	max-width: 750px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 32px 8px 8px 8px;
 }
 
-.cards-wrapper {
-
+.topic h2, .topic p {
+	margin: 0;
 }
 
 .feature-cards {
-	align-items: flex-start;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 430px) {
+	.feature-cards {
+		display: block;
+	}
+	.card {
+		width: calc(100vw - 38px);
+	}
+}
+
+@media screen and (min-width: 430px) {
+	.feature-cards {
+		display: flex;
+	}
+	.card {
+		min-width: 0px;
+		max-width: 375px;
+		width: calc(33vw - 29px);
+	}
 }
 
 .card {
-	min-width: 300px;
-	max-width: 326px;
 	height: 394px;
 	padding: 8px;
 	margin: 4px;
